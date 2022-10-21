@@ -6,6 +6,7 @@ const Curriculo = () => {
   return (  
     <>
         <Navbar/>
+        <hr/>
         <div className="section">
           
         </div>

@@ -6,6 +6,7 @@ const Contato = () => {
   return (  
     <>
         <Navbar/>
+        <hr/>
         <div className="section">
         
         </div>

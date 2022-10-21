@@ -16,7 +16,6 @@ const Navbar = () => {
           <Link href="/Login">Login</Link>
         </div>
 
-
         <div className={styles.linksResponsivos}>
             <Link href="/">Home</Link>
             <Link href="/Portfolio">Portfolio</Link>

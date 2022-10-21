@@ -7,7 +7,7 @@ const Login = () => {
     <>
         <Navbar/>
         <div className="section">
-          LOGUIN PORRA
+        
         </div>
     </>  
   )
