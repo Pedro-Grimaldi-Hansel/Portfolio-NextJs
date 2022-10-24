@@ -7,9 +7,11 @@ const Home: NextPage = () => {
     <> 
       <Navbar/>
       <hr/>
-      <div className={styles.Home}>
-        
-      </div>
+      <section className={styles.Home}>
+      <div className={styles.foto_de_perfil}>
+                    <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank"></a>
+                </div>
+      </section>
     </>
     
   )
