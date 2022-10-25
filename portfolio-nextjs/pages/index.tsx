@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/NavBar'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/index.module.scss'
+import Image from "next/image";
+import foto from '../styles/Images/Pedro.jpg'
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +11,7 @@ const Home: NextPage = () => {
       <hr/>
       <section className={styles.Home}>
       <div className={styles.foto_de_perfil}>
-                    <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank"></a>
+                    <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank"><Image src={foto}/></a>
                 </div>
       </section>
     </>

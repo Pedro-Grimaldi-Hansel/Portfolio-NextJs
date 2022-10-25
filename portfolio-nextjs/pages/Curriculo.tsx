@@ -1,15 +1,15 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/NavBar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Curriculo.module.scss'
 
 const Curriculo = () => {
   return (  
     <>
         <Navbar/>
         <hr/>
-        <div className="section">
+        <section className={styles.Curriculo}>
           
-        </div>
+        </section>
     </>  
   )
 }
