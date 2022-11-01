@@ -1,13 +1,15 @@
-.Home{
-    background-color: #A3B18A;
+.Home_top{
     display: flex;  
     gap: 50px;
     font-size: 16px;
+    color: #DAD7CD;
+    align-items: center;
+    text-align: left;
 
     h1{
         font-size: 45px;
         span{
-            color: #A3B18A;  
+            color: #A3B18A;    
             display: block;  
         }
     }
@@ -19,13 +21,28 @@
     } 
 
     .foto_de_perfil{  
+        display: flex;
+        border-radius: 350px;
+        justify-content: center;
         margin-left: 50px;
         margin-top: 100px;
-
+        min-width: 350px;
+        margin-bottom: -2px;
+        
         img{
-            width: 350px;
-            height: 350px;
+            width: 350px !important;
+            height: 350px !important;
             border-radius: 350px;
+        }
+    }
+    .Texto_de_introducao{
+        margin-top: 200px;
+        height: 350px;
+        margin-right: 50px;
+
+        a{ 
+            color: #DAD7CD;
+            text-decoration: none;
         }
     }
 
