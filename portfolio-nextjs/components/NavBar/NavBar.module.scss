@@ -67,7 +67,9 @@
             a{
                 transition: 150ms;
                 color: #DAD7CD;
-                text-decoration: none
+                text-decoration: none;
+                margin-left: 10px;
+                margin-right: 10px;
             }
 
             a:hover{
@@ -76,7 +78,7 @@
         }
     }
 }
-@media ( max-width: 425px){
+@media ( max-width: 500px){
     .NavBar{
         margin: 0;
         height: 100px;
@@ -85,11 +87,11 @@
             display: flex;
             flex-wrap: wrap;
             height: 100px;
-
+            
             a{
                 transition: 150ms;
                 color: #DAD7CD;
-                text-decoration: none
+                text-decoration: none;
             }
         }
 
