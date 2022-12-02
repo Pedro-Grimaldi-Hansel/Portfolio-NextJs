@@ -20,3 +20,9 @@ hr{
   width: 98%;
   margin-top: 0;
 }
+@media ( max-width: 425px){
+  hr{
+    width: 96%;
+    margin-top: 0;
+  }
+}

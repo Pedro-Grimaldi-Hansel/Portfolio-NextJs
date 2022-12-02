@@ -4,7 +4,7 @@ import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
-    <header className={styles.NavBar}>
+    <section className={styles.NavBar}>
 
         <div className={styles.linkHome}>
           <Link href="/">Home</Link>
@@ -13,7 +13,6 @@ const Navbar = () => {
           <Link href="/Portfolio">Portfolio</Link>
           <Link href="/Curriculo">Curriculo</Link>
           <Link href="/Contato">Contato</Link>
-          <Link href="/Login">Login</Link>
         </div>
 
         <div className={styles.linksResponsivos}>
@@ -21,9 +20,8 @@ const Navbar = () => {
             <Link href="/Portfolio">Portfolio</Link>
             <Link href="/Curriculo">Curriculo</Link>
             <Link href="/Contato">Contato</Link>
-            <Link href="/Login">Login</Link>
         </div>
-    </header>
+    </section>
   );
 };
 

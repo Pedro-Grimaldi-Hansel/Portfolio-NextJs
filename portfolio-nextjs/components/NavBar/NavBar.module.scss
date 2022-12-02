@@ -78,20 +78,24 @@
         }
     }
 }
-@media ( max-width: 500px){
+@media ( max-width: 425px){
     .NavBar{
-        margin: 0;
-        height: 100px;
-        
+
         .linksResponsivos{
-            display: flex;
-            flex-wrap: wrap;
-            height: 100px;
+            gap: 0px;        
+        }
+
+    }
+}
+@media ( max-width: 365px){
+    .NavBar{
+
+        .linksResponsivos{
+            gap: 0px;   
             
             a{
-                transition: 150ms;
-                color: #DAD7CD;
-                text-decoration: none;
+                margin-left: 5px;
+                margin-right: 5px;
             }
         }
 
