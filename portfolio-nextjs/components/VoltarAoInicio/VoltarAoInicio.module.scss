@@ -1,0 +1,23 @@
+.VoltarAoInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    p{
+        padding: 0px;
+    }
+    a{
+        text-decoration: none;
+        color: rgba(44,98,54,1);
+    }
+    .meio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  #DAD7CD;
+        height: 50px;
+        width: 300px;
+        border-radius: 30px;
+    }
+}
