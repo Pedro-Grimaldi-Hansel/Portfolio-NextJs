@@ -22,6 +22,12 @@
         h2{
             a{
                 color: #DAD7CD;   
+                border-bottom: 2px solid transparent;
+                transform: .4s;
+            }
+            
+            a:hover{
+                border-color: #DAD7CD;
             }
         } 
     

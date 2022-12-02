@@ -1,0 +1,17 @@
+.CardContato{
+    display: flex;
+    justify-content: center;
+    
+
+    .Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  #DAD7CD;
+        height: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: 30px 30px 30px 30px;
+        gap: 20px;
+    }
+}
