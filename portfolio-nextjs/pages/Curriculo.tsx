@@ -94,8 +94,10 @@ const Curriculo = () => {
 
         <p>Desenvolvedor, Gerente de Projetos e Conselheiro Multiplicador na <a href="https://www.instagram.com/codejr/" target="_blank">Code Empresa Jr.</a>, em Juiz de Fora-MG.</p>
           
-        <VoltarAoInicio/>
-        </section>    
+        
+        </section>
+        
+        <VoltarAoInicio/>   
     </>  
   )
 }

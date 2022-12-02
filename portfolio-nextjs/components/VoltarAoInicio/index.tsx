@@ -6,7 +6,7 @@ const VoltarAoInicio = () => {
   return (
     <section className={styles.VoltarAoInicio}>
         <div className={styles.meio}>
-            <p><a href="curriculo.php">Voltar ao início da página</a></p>
+            <p><Link href="/Curriculo">Voltar ao inicio da pagina.</Link></p>
         </div>
     </section>
   );
