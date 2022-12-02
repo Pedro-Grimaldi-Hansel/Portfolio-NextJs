@@ -43,12 +43,12 @@ const Curriculo = () => {
         <h3>Ensino superior</h3>
 
         <p>Atualmente curso a graduação em <a href="https://www2.ufjf.br/ufjf/ensino/graduacao/ciencias-exatas/" 
-        target="_blank">Ciencias Exatas</a> e <a href="https://www.ufjf.br/cursocomputacao/" 
-        target="_blank">Ciencias da Computação</a> na Universidade Federal de Juiz de Fora.</p>
+        target="_blank" rel="noreferrer">Ciencias Exatas</a> e <a href="https://www.ufjf.br/cursocomputacao/" 
+        target="_blank" rel="noreferrer">Ciencias da Computação</a> na Universidade Federal de Juiz de Fora.</p>
 
         <h3>Ensino médio</h3>
 
-        <p><a href="http://www.colegioalaor.com.br/" target="_blank">Colégio Alaor.</a> </p>
+        <p><a href="http://www.colegioalaor.com.br/" target="_blank" rel="noreferrer">Colégio Alaor.</a> </p>
 
         <h3>Curso de ingles</h3>
 
@@ -92,7 +92,8 @@ const Curriculo = () => {
 
         <h3>2022-Em andamento</h3>
 
-        <p>Desenvolvedor, Gerente de Projetos e Conselheiro Multiplicador na <a href="https://www.instagram.com/codejr/" target="_blank">Code Empresa Jr.</a>, em Juiz de Fora-MG.</p>
+        <p>Desenvolvedor, Gerente de Projetos e Conselheiro Multiplicador na <a href="https://www.instagram.com/codejr/"
+        target="_blank" rel="noreferrer">Code Empresa Jr.</a>, em Juiz de Fora-MG.</p>
           
         
         </section>
