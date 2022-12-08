@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/NavBar'
 
-const Portifolio = () => {
+const Experiencias = () => {
   return (  
     <>
         <Navbar/>
@@ -13,4 +13,4 @@ const Portifolio = () => {
   )
 }
 
-export default Portifolio
+export default Experiencias
