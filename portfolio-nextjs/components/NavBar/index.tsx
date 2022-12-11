@@ -11,14 +11,14 @@ const Navbar = () => {
         </div>
         <div className={styles.links}>
           <Link href="/Experiencias">Experiencias</Link>
-          <Link href="/Curriculo">Curriculo</Link>
+          <Link href="/Skills">Skills</Link>
           <Link href="/Contato">Contato</Link>
         </div>
 
         <div className={styles.linksResponsivos}>
             <Link href="/">Home</Link>
             <Link href="/Experiencias">Experiencias</Link>
-            <Link href="/Curriculo">Curriculo</Link>
+            <Link href="/Skills">Skills</Link>
             <Link href="/Contato">Contato</Link>
         </div>
     </section>

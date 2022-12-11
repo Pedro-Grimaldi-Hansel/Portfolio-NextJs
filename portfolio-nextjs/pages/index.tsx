@@ -3,6 +3,7 @@ import Navbar from '../components/NavBar'
 import styles from '../styles/index.module.scss'
 import Image from "next/image";
 import foto from '../public/Images/Pedro.jpg'
+
 //imports dos icones do devicons
 
 import git from '../public/Images/git-original.svg'

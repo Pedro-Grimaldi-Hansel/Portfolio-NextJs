@@ -7,7 +7,6 @@ const Experiencias = () => {
         <Navbar/>
         <hr/>
         <div className="section">
-          
         </div>
     </>  
   )
