@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "vercel-build": "npm run prepare && next build",
-    "prepare": "run-script-os"
+    "prepare:windows": "@echo windows execution script"
   },
   "dependencies": {
     "next": "^12.3.4",
