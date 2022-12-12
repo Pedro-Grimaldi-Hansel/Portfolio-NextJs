@@ -34,7 +34,6 @@ const CardSkills = (props:CardSkillsProps) => {
 
       </div>
     </section>
-    
   );
 };
 

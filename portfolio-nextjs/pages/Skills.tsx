@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import CardSkills from '../components/CardSkills'
 import Navbar from '../components/NavBar'
-import VoltarAoInicio from '../components/VoltarAoInicio'
 import styles from '../styles/Skills.module.scss'
 
 const Skills = () => {
@@ -68,8 +67,7 @@ const Skills = () => {
             />
           </div>
                            
-        </section>
-        <VoltarAoInicio/>           
+        </section>      
     </>  
   )
 }
