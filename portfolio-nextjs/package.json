@@ -12,11 +12,14 @@
     "prepare:windows": "@echo windows execution script"
   },
   "dependencies": {
+    "execution": "^0.0.0",
     "next": "^12.3.4",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
     "run-script-os": "^1.1.6",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "script": "^0.0.12",
+    "windows": "^0.1.2"
   },
   "devDependencies": {
     "@types/node": "18.8.5",
