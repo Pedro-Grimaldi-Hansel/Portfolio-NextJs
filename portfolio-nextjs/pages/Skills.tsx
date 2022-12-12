@@ -14,34 +14,34 @@ const Skills = () => {
           <div className={styles.Cards}>
             <CardSkills skill='HTML' 
             icones= './Images/html5-original.svg'
-            texto='Base solida em HTML e capacidade de usar a linguagem nos desenvolvimentos Front-End e Back-End.'
+            texto='Base sólida em HTML e capacidade de usar a linguagem de marcação nos desenvolvimentos Front-End e integração com Back-End.'
             />
           </div> 
 
           <div className={styles.Cards}>
             <CardSkills skill='CSS' 
             icones= './Images/CSS3-original.svg'
-            texto='Base solida em CSS e SASS, permitindo alta facilidade na ciração de sites responsivos e estilizados.'
+            texto='Base sólida em CSS e SASS (usado nesse site), permitindo alta facilidade na criação de sites responsivos e estilizados.'
             />
           </div> 
 
           <div className={styles.Cards}>
             <CardSkills skill='JavaScript' 
             icones= './Images/javascript-original.svg'
-            texto='Base solida em JavaScript e capacidade de usar a linguagem nos desenvolvimentos Front-End e Back-End.'
+            texto='Base sólida em JavaScript e capacidade de usar a linguagem nos desenvolvimentos Front-End e Back-End.'
             />
           </div>
           <div className={styles.Cards}>
             <CardSkills skill='ReactJs' 
             icones= './Images/react-original-wordmark.svg'
-            texto="Com a biblioteca ReactJs posso programar o Front-end completo de projetos web e promover a interação com o Back-end integrando API's."
+            texto="Com a biblioteca ReactJs posso programar o Front-End completo de projetos web e promover a interação com o Back-End integrando API's."
             />
           </div>
 
           <div className={styles.Cards}>  
             <CardSkills skill='NextJs' 
             icones= './Images/nextjs-original-wordmark.svg'
-            texto='Com NextJs posso programar o Front-end completo de projetos web (como esse site por exemplo) e promover a interação com o Back-end.'
+            texto='Com NextJs posso programar o Front-End completo de projetos web (como esse site por exemplo) e promover a interação com o Back-End.'
             />
           </div>  
 
@@ -69,7 +69,7 @@ const Skills = () => {
           </div>
                            
         </section>
-           
+        <VoltarAoInicio/>           
     </>  
   )
 }
