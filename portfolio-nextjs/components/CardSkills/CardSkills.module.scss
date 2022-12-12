@@ -1,6 +1,16 @@
 .CardSkills{
-    display: flex;
-
+    .Icone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .Img{
+            margin-top: 10px;
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
     .Card{
         background-color: #A3B18A;
         border-radius: 10px;
@@ -9,10 +19,12 @@
         width: 300px;
         .Titulo{
             h1{
-                text-align: center;
+                text-align: start;
+                padding-left: 25px;
                 font-size: 30px;
                 color: rgba(44,98,54,1);
                 margin-bottom: 0px; 
+                margin-top: 20px;
             }
         }
         .Texto{
