@@ -8,6 +8,10 @@ const Skills = () => {
     <>
         <Navbar/>
         <hr/>
+        <section className={styles.Texts}>
+        <h1>Skills</h1>
+        <h2>Passe o mouse ou clique no icone para saber mais sobre minhas capacitações!</h2>
+        </section>
         <section className={styles.Skills}>
           
           <div className={styles.Cards}>

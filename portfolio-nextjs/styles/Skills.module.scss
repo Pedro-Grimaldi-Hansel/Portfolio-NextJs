@@ -1,12 +1,24 @@
+.Texts{
+    text-align: center;
+    
+    h1{    
+        font-size: 45px;          
+        margin-bottom: 0px;
+    }
+}
+
 .Skills{
+    background-color: #DAD7CD;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px 70px;
-    align-items: top;
+    gap: 50px;
+    align-items: center;
     justify-content: center;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #A3B18A;
+    max-height: 200px;
 }
