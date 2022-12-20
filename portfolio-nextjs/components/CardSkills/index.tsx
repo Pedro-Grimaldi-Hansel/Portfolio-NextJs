@@ -16,7 +16,7 @@ const CardSkills = (props:CardSkillsProps) => {
 
           <div className={styles.Icone}>
             <div className={styles.Img}>
-              <img src={props.icones} alt="Icone da skill" /> 
+              <img src={props.icones} alt="Icone da skill" placeholder="blur" /> 
             </div> 
           </div> 
 

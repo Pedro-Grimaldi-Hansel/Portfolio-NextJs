@@ -12,6 +12,7 @@ import cplusplus from '../public/Images/cplusplus-original.svg'
 import html from '../public/Images/html5-original.svg'
 import css from '../public/Images/css3-original.svg'
 import js from '../public/Images/javascript-original.svg'
+import ts from '../public/Images/typescript-original.svg'
 import react from '../public/Images/react-original-wordmark.svg'
 import node from '../public/Images/nodejs-original.svg'
 import next from '../public/Images/nextjs-original-wordmark.svg'
@@ -25,7 +26,7 @@ const Home: NextPage = () => {
       <section className={styles.Home}>
         <section className={styles.Home_top}>
                   <div className={styles.foto_de_perfil}>
-                      <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer"><Image src={foto}/></a>
+                      <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer"><Image alt='icone ' src={foto}/></a>
                   </div>
 
                   <div className={styles.Texto_de_introducao}>
@@ -39,15 +40,15 @@ const Home: NextPage = () => {
         </section>
         <section className={styles.Home_bottom}>
               
-            <Image src={git}/>
-            <Image src={c}/>
-            <Image src={cplusplus}/>
-            <Image src={html}/>
-            <Image src={css}/>
-            <Image src={js}/>
-            <Image src={react}/>
-            <Image src={node}/>
-            <Image src={next}/>
+            <Image alt='icone ' src={git}/>
+            <Image alt='icone ' src={c}/>
+            <Image alt='icone ' src={html}/>
+            <Image alt='icone ' src={css}/>
+            <Image alt='icone ' src={js}/>
+            <Image alt='icone ' src={ts}/>
+            <Image alt='icone ' src={react}/>
+            <Image alt='icone ' src={node}/>
+            <Image alt='icone ' src={next}/>
 
         </section>
       </section>

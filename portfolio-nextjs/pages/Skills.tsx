@@ -13,7 +13,7 @@ const Skills = () => {
           <div className={styles.Cards}>
             <CardSkills skill='HTML' 
             icones= './Images/html5-original.svg'
-            texto='Base sólida em HTML e capacidade de usar a linguagem de marcação nos desenvolvimentos Front-End e integração com Back-End.'
+            texto='Base sólida em HTML e capacidade de usar a linguagem de marcação no Front-End e na integração com Back-End.'
             />
           </div> 
 
@@ -27,7 +27,13 @@ const Skills = () => {
           <div className={styles.Cards}>
             <CardSkills skill='JavaScript' 
             icones= './Images/javascript-original.svg'
-            texto='Base sólida em JavaScript e capacidade de usar a linguagem nos desenvolvimentos Front-End e Back-End.'
+            texto='Base sólida em JavaScript e capacidade de usar a linguagem no Front-End e Back-End.'
+            />
+          </div>
+          <div className={styles.Cards}>
+            <CardSkills skill='TypeScript' 
+            icones= './Images/typescript-original.svg'
+            texto='Base forte em TypeScript e capacidade de usar a linguagem no Front-End (como nesse site) e Back-End.'
             />
           </div>
           <div className={styles.Cards}>
