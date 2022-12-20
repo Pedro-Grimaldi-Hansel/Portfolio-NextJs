@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <section className={styles.Home}>
         <section className={styles.Home_top}>
                   <div className={styles.foto_de_perfil}>
-                      <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer"><Image alt='icone ' src={foto}/></a>
+                      <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer"><Image alt='icone ' placeholder='blur' src={foto}/></a>
                   </div>
 
                   <div className={styles.Texto_de_introducao}>
@@ -42,6 +42,7 @@ const Home: NextPage = () => {
               
             <Image alt='icone ' src={git}/>
             <Image alt='icone ' src={c}/>
+            <Image alt='icone ' src={cplusplus}/>
             <Image alt='icone ' src={html}/>
             <Image alt='icone ' src={css}/>
             <Image alt='icone ' src={js}/>
