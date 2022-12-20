@@ -12,9 +12,10 @@
     "prepare:windows": "@echo windows execution script"
   },
   "dependencies": {
+    "@next/font": "^13.0.7",
     "execution": "^0.0.0",
-    "next": "^12.3.4",
-    "react": "18.2.0",
+    "next": "^13.0.7",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "run-script-os": "^1.1.6",
     "sass": "^1.55.0",
@@ -26,7 +27,7 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1",
+    "eslint-config-next": "^13.0.7",
     "typescript": "4.8.4"
   }
 }
